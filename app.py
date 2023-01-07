@@ -63,7 +63,7 @@ def home():
   </head>
   <body>
     <h1>Voice Chat using GPT-3 Demo 1</h1>
-    <h2>Created by Chinmoy Pratim Borah and ProTaqnia</h2>
+    <h2>Created by Chinmoy Pratim Borah from ProTaqnia</h2>
     <button id="mic-button">Give command</button>
     <div id="message-box">
       <!-- user's voice input will be displayed here -->
