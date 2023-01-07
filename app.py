@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = "YOUR-OPENAI-API-KEY-HERE" #enter_your_openai_api_key
 
 engine = pyttsx3.init()
 
