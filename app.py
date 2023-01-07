@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-openai.api_key = "YOUR-OPENAI-API-KEY-HERE" #Enter_your_openai_api_key
+openai.api_key = "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"
 
 engine = pyttsx3.init()
 
@@ -71,6 +71,7 @@ def home():
     <br>
     <h1>Voice Chat using GPT-3 Demo 1</h1>
     <h2>Created by Chinmoy Pratim Borah from ProTaqnia</h2>
+    <h3>Coming soon Image Creator with Voice Command</h3>
     <button id="mic-button">Give command</button>
     <div id="message-box">
       <!-- user's voice input will be displayed here -->
