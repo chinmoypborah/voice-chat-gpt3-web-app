@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-openai.api_key = "YOUR-OPENAI-API-KEY-HERE" #enter_your_openai_api_key
+openai.api_key = "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"
 
 engine = pyttsx3.init()
 
@@ -71,7 +71,7 @@ def home():
     <br>
     <h1>Voice Chat using GPT-3 Demo 1</h1>
     <h2>Created by Chinmoy Pratim Borah from ProTaqnia</h2>
-    <h3>Coming soon Image Creator with Voice Command</h3>
+    <center><font size="2">Coming soon with Image Creator with Voice Command</font></center>
     <button id="mic-button">Give command</button>
     <div id="message-box">
       <!-- user's voice input will be displayed here -->
@@ -124,4 +124,4 @@ def process_text():
   return jsonify({ 'response': response_str })
 
 if __name__ == '__main__':
-  app.run()
+  app.run(debug=False,host='0.0.0.0')
